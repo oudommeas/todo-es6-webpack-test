@@ -17,7 +17,7 @@
     "AngularJS",
     "Webpack"
   ],
-  "author": "Unkown",
+  "author": "Unknown",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.3.15",
