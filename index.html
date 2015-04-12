@@ -2,9 +2,6 @@
 <html ng-app="Todo">
   <head>
     <link rel="stylesheet" href="styles/todo.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
-    <script src="build/app.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
   </head>
   <body ng-controller="TodoCtrl">
     <h2>To Do List</h2>
@@ -29,5 +26,7 @@
         <button ng-click="todoList.delete(todo)">Delete</button>
       </li>
     </ul>
+    <script src="http://localhost:8080/webpack-dev-server.js"></script>
+    <script src="bundle.js"></script>
   </body>
 </html>

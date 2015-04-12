@@ -1,8 +1,5 @@
 'use strict';
-/*jshint esnext: true */
-/*global angular: false */
-
-// The next line doesn't work without the ./ in Traceur!
+import angular from 'angular'
 import TodoList from './todolist';
 
 var app = angular.module('Todo', []);
