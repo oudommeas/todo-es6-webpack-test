@@ -1,10 +1,10 @@
 {
-  "name": "todo-es6",
+  "name": "todo-es6-webpack",
   "version": "0.0.0",
-  "description": "todo application using AngularJS and ES6",
+  "description": "todo application using AngularJS, ES6, and webpack",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mvolkmann/todo-es6.git"
+    "url": "https://github.com/oudommeas/todo-es6-webpack-test.git"
   },
   "main": "app.js",
   "scripts": {
@@ -15,9 +15,9 @@
   "keywords": [
     "ES6",
     "AngularJS",
-    "webpack"
+    "Webpack"
   ],
-  "author": "R. Mark Volkmann",
+  "author": "Unkown",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.3.15",
